@@ -1,0 +1,15 @@
+# The first word is the 'intent', the last part is what one might say
+
+TempIntent what temp for {Food} is {Doneness}
+TempIntent what is {Doneness} for {Food}
+TempIntent what temperature should I cook {Food} to for {Doneness}
+TempIntent what temperature is a {Doneness} {Food}
+
+MissingFoodIntent how hot is {Doneness}
+MissingFoodIntent what temp is {Doneness}
+MissingFoodIntent what temperature is {Doneness}
+
+MissingDonenessIntent how hot should i cook {Food}
+MissingDonenessIntent how much should i cook {Food}
+MissingDonenessIntent how long should i cook {Food}
+

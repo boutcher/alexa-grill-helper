@@ -1,0 +1,53 @@
+{
+  "intents": [
+    {
+      "intent": "TempIntent",
+      "slots": [
+        {
+          "name": "Doneness",
+          "type": "LIST_OF_DONENESS"
+        },
+        {
+          "name": "Food",
+          "type": "LIST_OF_FOOD"
+        }
+      ]
+    },
+
+    {
+      "intent": "MissingFoodIntent",
+      "slots": [
+        {
+          "name": "Doneness",
+          "type": "LIST_OF_DONENESS"
+        }
+      ]
+    },
+
+    {
+      "intent": "MissingDonenessIntent",
+      "slots": [
+        {
+          "name": "Food",
+          "type": "LIST_OF_FOOD"
+        }
+      ]
+    },
+
+    {
+      "intent": "AMAZON.StartOverIntent"
+    },
+    {
+      "intent": "AMAZON.RepeatIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
